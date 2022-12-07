@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:wght@400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.logo-page {
+  width: 112px;
+  height: 66px;
+}
+.section1 {
+  padding-top: 21px;
+  margin-bottom: 97px;
+}
+.section2 {
+  margin-bottom: 30px;
+}
+.section2img {
+  width: 22px;
+  height: 21px;
+  margin-right: 8px;
+}
+
+.section2 > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+.section2span {
+  width: 130px;
+  height: 32px;
+  font-family: "Roboto", sans-serif;
+}
+.section3 {
+  display: flex;
+}
+.section3h1 {
+  font-family: "Roboto Slab", serif;
+  width: 628px;
+  height: 190px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+}
+.section3p {
+  width: 414px;
+  height: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.section3div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+}
+.section3img1 {
+  width: 304px;
+  height: 356px;
+  z-index: 1;
+}
+.section3img2 {
+  width: 274px;
+  height: 41px;
+  position: absolute;
+  bottom: -25px;
+  right: -5px;
+}
+.section4div {
+  max-width: 483.63px;
+  width: 100%;
+  background: #1e4681;
+  border-radius: 5px;
+  margin: 67px auto;
+  padding: 19.26px 27.02px 18px 26.03px; 
+}
+.section4p1 {
+  font-family: "Roboto Slab", serif;
+  width: 430.59px;
+  height: 113px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  line-height: 32.5px;
+}
+.section4p2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  line-height: 26px;
+
+}
